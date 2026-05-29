@@ -1,65 +1,107 @@
+```html
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026</title>
+    <title>Agro: A Força da Vida</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Agrinho 2026</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#atividades">Atividades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>🌱 Agro: A Força que Move o Mundo</h1>
+        <p>O agro está presente em tudo o que vivemos.</p>
     </header>
 
-    <section id="inicio" class="hero">
-        <h2>Bem-vindo ao mundo do Agro!</h2>
-        <p>Descubra como o Agrinho 2026 conecta crianças, jovens e a comunidade ao campo, à cidadania e ao cuidado com o meio ambiente.</p>
-        <button id="btnExplorar">Explorar</button>
+    <section class="inicio">
+        <div class="texto">
+            <h2>A importância do Agro</h2>
+            <p>
+                O agro é responsável pela produção de alimentos, roupas, remédios,
+                combustíveis e diversos produtos usados diariamente.
+                Sem ele, faltariam alimentos nas cidades e milhares de pessoas
+                perderiam seus empregos.
+            </p>
+
+            <p>
+                O campo e a cidade dependem um do outro.
+                O agro movimenta a economia, gera desenvolvimento e ajuda milhões
+                de famílias em todo o país.
+            </p>
+        </div>
+
+        <div class="imagem">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Plantação">
+        </div>
     </section>
 
-    <section id="sobre">
-        <h2>Sobre o Agrinho</h2>
-        <p>O Agrinho é um projeto que promove educação, cidadania e cuidado com o meio ambiente. Aqui, aprendemos sobre sustentabilidade, agroecologia e cidadania de forma divertida.</p>
+    <section class="beneficios">
+        <h2>🌿 Tudo o que o Agro traz de bom</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🍎 Alimentação</h3>
+                <p>Produz alimentos essenciais para toda a população.</p>
+            </div>
+
+            <div class="card">
+                <h3>💼 Empregos</h3>
+                <p>Gera milhões de empregos diretos e indiretos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🚜 Tecnologia</h3>
+                <p>Utiliza inovação e máquinas modernas para aumentar a produção.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌎 Economia</h3>
+                <p>Ajuda no crescimento econômico do país.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="atividades">
-        <h2>Atividades</h2>
-        <ul>
-            <li>Redação: Expresse suas ideias sobre cidadania e agro.</li>
-            <li>Desenho: Mostre sua criatividade com o tema agro sustentável.</li>
-            <li>Projetos de cidadania: Crie ações para melhorar sua comunidade.</li>
-        </ul>
+    <section class="fim-agro">
+        <h2>⚠️ O que aconteceria sem o Agro?</h2>
+
+        <p>
+            Sem o agro haveria falta de alimentos, aumento da fome,
+            desemprego, crise econômica e dificuldades para produzir
+            produtos essenciais.
+        </p>
+
+        <p>
+            A sociedade depende do agro diariamente, desde a comida na mesa
+            até os produtos usados em hospitais e indústrias.
+        </p>
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <form id="formContato">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <section class="jogo">
+        <h2>🌳 Cuide da Planta</h2>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <p>
+            Escolha como será usado o agrotóxico e veja o que acontece com a planta.
+        </p>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+        <div class="planta-area">
+            <img id="planta" src="https://cdn-icons-png.flaticon.com/512/628/628324.png" alt="Planta">
+        </div>
 
-            <button type="submit">Enviar</button>
-        </form>
-        <p id="mensagemSucesso" class="sucesso"></p>
+        <div class="botoes">
+            <button onclick="muito()">Muito Agrotóxico</button>
+            <button onclick="correto()">Uso Correto</button>
+            <button onclick="pouco()">Quase Nada</button>
+        </div>
+
+        <div id="resultado"></div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Agrinho. Todos os direitos reservados.</p>
+        <p>Projeto Agrinho 2026 🌱</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+```

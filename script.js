@@ -1,18 +1,28 @@
-// Interatividade do botão "Explorar"
-document.getElementById('btnExplorar').addEventListener('click', () => {
-    window.location.href = '#sobre';
-});
+```javascript
+const planta = document.getElementById("planta");
+const resultado = document.getElementById("resultado");
 
-// Validação simples do formulário e mensagem de sucesso
-document.getElementById('formContato').addEventListener('submit', function(e) {
-    e.preventDefault();
+function muito(){
 
-    const nome = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
-    const mensagem = document.getElementById('mensagem').value;
+    planta.src = "https://cdn-icons-png.flaticon.com/512/2909/2909767.png";
 
-    if(nome && email && mensagem){
-        document.getElementById('mensagemSucesso').textContent = `Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`;
-        this.reset();
-    }
-});
+    resultado.innerHTML =
+    "☠️ Muito agrotóxico prejudicou a planta e contaminou o solo.";
+}
+
+function correto(){
+
+    planta.src = "https://cdn-icons-png.flaticon.com/512/628/628324.png";
+
+    resultado.innerHTML =
+    "🌱 Uso correto! A planta cresceu saudável e forte.";
+}
+
+function pouco(){
+
+    planta.src = "https://cdn-icons-png.flaticon.com/512/765/765613.png";
+
+    resultado.innerHTML =
+    "🍃 Pouco agrotóxico ajudou parcialmente a planta.";
+}
+```
