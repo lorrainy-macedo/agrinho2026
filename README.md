@@ -1,1 +1,1 @@
-# agrinho2026
+# 🌱 AgroVida Inteligente é um projeto educativo que mostra, de forma interativa, como o uso dos agrotóxicos influencia o desenvolvimento das plantações. Ao escolher diferentes quantidades, o usuário observa os impactos positivos e negativos na planta e no solo, aprendendo a importância do equilíbrio entre produção agrícola e preservação ambiental. O projeto transforma conhecimento em uma experiência visual simples, divertida e consciente. 🌾💚
